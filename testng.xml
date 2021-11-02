@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name="ChromeBrowser">
+    <parameter name="browser" value="Chrome"></parameter>
+    <parameter name="version" value="latest"></parameter>
+    <parameter name="platform" value="Windows 10"></parameter>
+    <classes>
+            <class name="sauceLabs.TestCase1"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test name="FirefoxBrowser">
+    <parameter name="browser" value="Firefox"></parameter>
+    <parameter name="version" value="latest"></parameter>
+    <parameter name="platform" value="Windows 10"></parameter>
+    <classes>
+      <class name="sauceLabs.TestCase1"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

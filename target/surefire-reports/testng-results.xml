@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48710" started-at="2021-11-01T19:39:05 IST" finished-at="2021-11-01T19:39:54 IST">
+    <groups>
+    </groups>
+    <test name="ChromeBrowser" duration-ms="21955" started-at="2021-11-01T19:39:05 IST" finished-at="2021-11-01T19:39:27 IST">
+      <class name="sauceLabs.TestCase1">
+        <test-method status="PASS" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sauceLabs.TestCase1@185d8b6]" name="setUp" is-config="true" duration-ms="12019" started-at="2021-11-01T19:39:05 IST" finished-at="2021-11-01T19:39:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:sauceLabs.TestCase1@185d8b6]" name="verifyLogin" duration-ms="9497" started-at="2021-11-01T19:39:17 IST" finished-at="2021-11-01T19:39:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sauceLabs.TestCase1@185d8b6]" name="tearDown" is-config="true" duration-ms="413" started-at="2021-11-01T19:39:27 IST" finished-at="2021-11-01T19:39:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sauceLabs.TestCase1 -->
+    </test> <!-- ChromeBrowser -->
+    <test name="FirefoxBrowser" duration-ms="26727" started-at="2021-11-01T19:39:27 IST" finished-at="2021-11-01T19:39:54 IST">
+      <class name="sauceLabs.TestCase1">
+        <test-method status="PASS" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sauceLabs.TestCase1@6e6c3152]" name="setUp" is-config="true" duration-ms="16284" started-at="2021-11-01T19:39:27 IST" finished-at="2021-11-01T19:39:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:sauceLabs.TestCase1@6e6c3152]" name="verifyLogin" duration-ms="10061" started-at="2021-11-01T19:39:44 IST" finished-at="2021-11-01T19:39:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sauceLabs.TestCase1@6e6c3152]" name="tearDown" is-config="true" duration-ms="379" started-at="2021-11-01T19:39:54 IST" finished-at="2021-11-01T19:39:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sauceLabs.TestCase1 -->
+    </test> <!-- FirefoxBrowser -->
+  </suite> <!-- Suite -->
+</testng-results>
